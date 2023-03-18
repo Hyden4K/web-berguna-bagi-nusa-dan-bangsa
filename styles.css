@@ -1,0 +1,115 @@
+/* Place your CSS styles in this file */
+*{text-decoration: none;}
+
+body {background-image: url("elegant\ bg.jpg");
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight:bolder;
+    color: darkslategray;
+}
+
+h2 {
+    text-align: left;
+    font-weight: bold;
+}
+
+h4 {text-align: left;
+    font-weight: bold;
+font-size: x-large;}
+
+h5{text-align: center;
+    font-weight: bold;
+font-size: x-large;}
+
+#p2 {color:black;
+   text-align: center;
+}
+
+#p3 {color: black;
+    text-align: center;
+}
+
+#p4 {color: black;
+      text-align: left;
+      font-weight: bolder;
+      font-size: x-large;}
+
+p {font-size: larger;
+   font-weight: lighter;
+
+}
+img {width:320px;
+     margin-left: 43%;
+     margin-top: 5%;}
+
+
+header {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #e67e22;
+}
+
+
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+ .nama a{color: black;
+         font-weight: lighter;
+        font-size: larger;}
+
+ .gambarkelompok {width: 1000px;
+                display:block;
+                 margin: auto;}
+
+span{font-size: 3rem;}
+audio{top: 12rem;
+      right: 2rem;
+     position: fixed;}
+    
+iframe{margin: auto;
+    display: block;
+     width: 700px;}
