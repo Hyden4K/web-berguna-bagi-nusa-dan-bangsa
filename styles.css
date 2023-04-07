@@ -1,20 +1,23 @@
 /* Place your CSS styles in this file */
-*{text-decoration: none;}
+* {
+    text-decoration: none;
+}
 
-body {background-image: url("watercolor-texture-background-free-vector.jpg");
+body {
+    background-image: url("watercolor-texture-background-free-vector.jpg");
     padding-left: 6px;
     padding-right: 6px;
     padding-top: 6px;
     padding-bottom: 6px;
-   margin-left: auto;
-   margin-right: auto;
-   
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 h1 {
     text-align: center;
     font-family: "Source Sans Pro", sans-serif;
-    font-weight:bolder;
+    font-weight: bolder;
     color: black;
 }
 
@@ -23,38 +26,60 @@ h2 {
     font-weight: bold;
 }
 
-h4 {text-align: left;
+h4 {
+    text-align: left;
     font-weight: bold;
-font-size: x-large;}
-
-h5{text-align: center;
-    font-weight: bold;
-font-size: x-large;}
-
-#p2 {color:black;
-   text-align: center;
+    font-size: x-large;
 }
 
-#p3 {color: black;
+h5 {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#p2 {
+    color: black;
     text-align: center;
 }
 
-#p4 {color: black;
-      text-align: left;
-      font-weight: bolder;
-      font-size: x-large;}
+#p3 {
+    color: black;
+    text-align: center;
+}
 
-p {font-size: larger;
-   font-weight: lighter;
+#p4 {
+    color: black;
+    text-align: left;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+#p5 {
+    color: black;
+    text-align: center;
+}
+
+#p6 {
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-size: larger;
+    font-weight: lighter;
 
 }
-img {width:320px;
-     margin-left: 43%;
-     margin-top: 5%;}
+
+img {
+    width: 320px;
+    margin-left: 43%;
+    margin-top: 5%;
+}
 
 
 header {
-       color: #fff;
+    color: #fff;
     border-bottom: 5px solid black;
 }
 
@@ -86,30 +111,41 @@ nav a:hover {
 }
 
 
-  main {
+main {
     padding: 20px;
-  }
-  
-  footer {
+}
+
+footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
-  }
+}
 
- .nama a{color: black;
-         font-weight: lighter;
-        font-size: larger;}
+.nama a {
+    color: black;
+    font-weight: lighter;
+    font-size: larger;
+}
 
- .gambarkelompok {width: 1000px;
-                display:block;
-                 margin: auto;}
-
-span{font-size: 3rem;}
-audio{top: 12rem;
-      right: 2rem;
-     position: fixed;}
-    
-iframe{margin: auto;
+.gambarkelompok {
+    width: 1000px;
     display: block;
-     width: 700px;}
+    margin: auto;
+}
+
+span {
+    font-size: 3rem;
+}
+
+audio {
+    top: 12rem;
+    right: 2rem;
+    position: fixed;
+}
+
+iframe {
+    margin: auto;
+    display: block;
+    width: 700px;
+}
