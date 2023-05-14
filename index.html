@@ -15,6 +15,7 @@
 <body>
     <header>
         <nav>
+            <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
             <h1 style="color:black;">Gender Equality <span>⚥</span></h1>
             <ul>
                 <li><a href="index.html">Home🏠</a></li>
@@ -79,6 +80,17 @@
         <h3>Sumber:<a href="https://www.bappenas.go.id">https://www.bappenas.go.id</a></h3>
         <!-- Load external JavaScript -->
         <script src="scripts.js"></script>
+
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+        <script>
+            function w3_open() {
+              document.getElementById("mySidebar").style.display = "block"; }
+            
+            function w3_close() {
+              document.getElementById("mySidebar").style.display = "none";
+            }
+            </script>
 
     </main>
     <footer>
