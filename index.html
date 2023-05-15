@@ -15,15 +15,13 @@
 <body>
     <header>
         <nav>
-            <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
-                <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
-                <a href="#" class="index.html">Home🏠</a>
-                <a href="#" class="about.html">About us🤔</a>
-                <a href="#" class="design.html">Design Process💡</a>
-                <a href="#" class="product.html">Product👨‍🏫</a>
-              </div>
-            <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
             <h1 style="color:black;">Gender Equality <span>⚥</span></h1>
+            <ul>
+                <li><a href="index.html">Home🏠</a></li>
+                <li><a href="about.html">About us🤔</a></li>
+                <li><a href="design.html">Design Process💡</a></li>
+                <li><a href="product">Product👨‍🏫</a></li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -79,19 +77,6 @@
         </iframe>
 
         <h3>Sumber:<a href="https://www.bappenas.go.id">https://www.bappenas.go.id</a></h3>
-        <!-- Load external JavaScript -->
-        <script src="scripts.js"></script>
-
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
-        <script>
-            function w3_open() {
-              document.getElementById("mySidebar").style.display = "block"; }
-            
-            function w3_close() {
-              document.getElementById("mySidebar").style.display = "none";
-            }
-            </script>
 
     </main>
     <footer>
