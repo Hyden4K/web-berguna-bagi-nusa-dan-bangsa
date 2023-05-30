@@ -188,3 +188,39 @@ iframe {
     display: block;
     width: 700px;
 }
+
+.slider {
+    position: relative;
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 1000px;
+    height: auto;
+    margin: 550px;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+
+}
+
+.next {
+    right: 10px;
+
+}
