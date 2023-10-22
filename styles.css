@@ -189,15 +189,7 @@ iframe {
     width: 700px;
 }
 
-.slider {
-    position: relative;
-}
-
-.slide {
-    display: none;
-}
-
-.slide img {
+.mySlides img {
     width: 1000px;
     height: auto;
     margin: 550px;
